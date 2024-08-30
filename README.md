@@ -43,11 +43,11 @@ These datasets include comprehensive genomic and transcriptomic data essential f
 
 ## License
 
-This project is licensed under the MIT License - see [LICENSE.md](LICENSE.md) for details.
+This project is licensed under the MIT License.
 
 ## Contact
 
-For inquiries or collaboration proposals, please contact [Email/LinkedIn].
+For inquiries or collaboration proposals, please contact me at mmottaqi@gradcenter.cuny.edu
 
 ## Acknowledgments
 
