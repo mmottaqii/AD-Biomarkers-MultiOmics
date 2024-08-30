@@ -33,13 +33,13 @@ These datasets include comprehensive genomic and transcriptomic data essential f
 
 ## Dependencies
 
-- Python 3.x
+- Python 3.11
 - Jupyter
 - Pandas
 - NumPy
 - Scikit-learn
 - Matplotlib, Seaborn
-- TensorFlow or PyTorch (for advanced modeling techniques)
+- PyTorch (for advanced modeling techniques)
 
 ## License
 
