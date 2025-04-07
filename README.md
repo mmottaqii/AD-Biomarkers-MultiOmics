@@ -37,9 +37,13 @@ To replicate or extend the analysis presented here:
 ## Data Description
 
 Bulk RNA-Seq: Unified RNA-seq datasets from three major AD cohorts (ROSMAP, MSBB, and MAYO), spanning 2105 post-mortem samples in nine brain regions.
+
 Genomic Variants: Matching genotype data for the same samples, enabling combined transcriptomic and GWAS-based analyses.
+
 Clinical Information: AD diagnosis status and basic demographics (e.g., age, sex).
+
 Note: Actual data files are not uploaded here due to licensing and size constraints. Please refer to the AMP-AD Knowledge Portal or the manuscript for instructions on obtaining the relevant datasets.
+
 These datasets include comprehensive genomic and transcriptomic data essential for multi-layered biomarker analysis.
 
 ## Dependencies
@@ -50,7 +54,6 @@ These datasets include comprehensive genomic and transcriptomic data essential f
 - NumPy
 - Scikit-learn
 - Matplotlib, Seaborn
-- PyTorch (for advanced modeling techniques)
 
 ## License
 
@@ -58,8 +61,13 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For inquiries or collaboration proposals, please contact me at mmottaqi@gradcenter.cuny.edu
+For questions, collaborations, or code issues:
+
+Mohammadsadeq Mottaqi: mmottaqi@gradcenter.cuny.edu
+
+Lei Xie: lxie@iscb.org
+
 
 ## Acknowledgments
 
-Thanks to all data providers, collaborators, and institutions that support this research. Special thanks to the funding agencies for their crucial support.
+This work was supported by grants from the NIH (R01GM122845, R01AG057555, R21AG083302) and NSF (2226183). We thank the AMP-AD Consortium, ROSMAP, MSBB, and Mayo Clinic teams for data access.
