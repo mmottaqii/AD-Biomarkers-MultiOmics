@@ -2,7 +2,7 @@
 
 This repository contains the code and analyses for our paper on the PRISM-ML framework, which integrates interpretable machine learning and multi-omics data to identify patient-specific biomarkers and potential drug repurposing candidates in Alzheimer’s Disease (AD). Our goal is to uncover novel biomarkers and disease mechanisms that can guide more effective diagnostic and therapeutic strategies.
 
-![PRISM-ML Pipeline](assets/PRISM-ML_pipeline_figure.png)
+![PRISM-ML Pipeline](figures/Fig1.png)
 
 ## Project Overview
 
