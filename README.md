@@ -1,27 +1,39 @@
-# Integrative Multi-Omics Biomarker Discovery for Alzheimer’s Disease
+# PRISM-ML: Integrating Interpretable Machine Learning and Multi-Omics Systems Biology for Alzheimer’s Disease
 
-This repository details our research efforts focused on identifying biomarkers for Alzheimer’s Disease (AD) through the integration of multiple omics datasets. Utilizing advanced data processing and machine learning techniques, we aim to uncover novel biomarkers that could lead to improved diagnostic and therapeutic strategies for AD.
+This repository contains the code and analyses for our paper on the PRISM-ML framework, which integrates interpretable machine learning and multi-omics data to identify patient-specific biomarkers and potential drug repurposing candidates in Alzheimer’s Disease (AD). Our goal is to uncover novel biomarkers and disease mechanisms that can guide more effective diagnostic and therapeutic strategies.
+
+![PRISM-ML Pipeline](assets/PRISM-ML_pipeline_figure.png)
 
 ## Project Overview
 
-Alzheimer's Disease is a complex neurodegenerative condition characterized by cognitive decline and neuropathological changes. Our project leverages genomic, transcriptomic, and additional omics data to dissect the molecular underpinnings of AD, facilitating the discovery of diagnostic and prognostic biomarkers.
+Alzheimer’s Disease (AD) is a multifactorial neurodegenerative condition, characterized by complex molecular changes in the brain. Our project employs bulk RNA-seq data and genomic variants from multiple large-scale AD studies to:
+
+- Identify patient-level and subtissue-specific biomarkers using a Random Forest classifier with SHAP (interpretable machine learning).
+- Build network models to find critical “bottleneck” genes that link genetic risk factors and expression-based biomarkers.
+- Explore multi-target drug repurposing strategies by systematically querying knowledge graphs and validating candidates in real-world data.
 
 ## Repository Structure
 
-- `scripts/`: Contains computational notebooks and scripts for data processing, analysis, and model development.
-  - `AD_SHAP_GWAS_dataprocessing.ipynb`: Integrates genomic data with transcriptomic profiles to identify significant biomarkers using SHAP values and GWAS insights.
-  - `review_aug_26.ipynb`: Conducts a comprehensive review and analysis of the data processed in August, focusing on PCA analysis of RNA-seq data, merging of datasets, and preparation for further machine learning analysis.
-  - `review_july_24.ipynb`: Summarizes the initial preprocessing steps, data integration, and exploratory data analysis conducted in July, setting the stage for in-depth biomarker discovery.
-- `assets/`: Includes essential omics data files, notably RNA-seq data, used in the analyses.
+- **scripts/**: Contains computational notebooks for data processing, analysis, and figure generation.
+  - **Part1_RNAseq_data_ML_clustering_biomarkers.ipynb**  
+    Implements data loading, cleaning, and interpretable machine learning (Random Forest + SHAP) to identify patient-level AD biomarkers.
+  - **Part2_genomics_network_analysis_drug_repurposing.ipynb**  
+    Performs network construction, identifies “bottleneck” genes, and carries out a knowledge-graph-based drug repurposing analysis.
+  - **Figures_tables_final_statistics.ipynb**  
+    Gathers results, generates final figures and tables used in the paper, and calculates summary statistics across tissues.
+    
+- **figures/**: Stores static resources and figures for this repository.
+
 
 ## Getting Started
 
-To utilize this repository for research or educational purposes:
+To replicate or extend the analysis presented here:
 
-1. Clone this repository.
-2. Install required dependencies from `requirements.txt`.
-3. Execute notebooks within the `scripts/` directory sequentially to replicate or extend the analyses.
-
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/your-username/PRISM-ML_AD_Analysis.git
+   cd PRISM-ML_AD_Analysis
+  
 ## Data Description
 
 This project employs datasets sourced from the Synapse platform, focusing on three major studies:
