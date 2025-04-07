@@ -36,11 +36,10 @@ To replicate or extend the analysis presented here:
   
 ## Data Description
 
-This project employs datasets sourced from the Synapse platform, focusing on three major studies:
-- ROSMAP (Religious Orders Study and Memory and Aging Project)
-- MSBB (Mount Sinai Brain Bank)
-- Mayo Clinic Study of Aging
-
+Bulk RNA-Seq: Unified RNA-seq datasets from three major AD cohorts (ROSMAP, MSBB, and MAYO), spanning 2105 post-mortem samples in nine brain regions.
+Genomic Variants: Matching genotype data for the same samples, enabling combined transcriptomic and GWAS-based analyses.
+Clinical Information: AD diagnosis status and basic demographics (e.g., age, sex).
+Note: Actual data files are not uploaded here due to licensing and size constraints. Please refer to the AMP-AD Knowledge Portal or the manuscript for instructions on obtaining the relevant datasets.
 These datasets include comprehensive genomic and transcriptomic data essential for multi-layered biomarker analysis.
 
 ## Dependencies
