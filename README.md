@@ -14,7 +14,7 @@ Alzheimer’s Disease (AD) is a multifactorial neurodegenerative condition, char
 
 ## Repository Structure
 
-- **scripts/**: Contains computational notebooks for data processing, analysis, and figure generation.
+- **scripts/**: Contains computational notebooks for data processing, analysis, and figure generation. ![PRISM-ML Pipeline](scripts/Part1_RNAseq_data_ML_clustering_biomarkers.ipynb)
   - **Part1_RNAseq_data_ML_clustering_biomarkers.ipynb**  
     Implements data loading, cleaning, and interpretable machine learning (Random Forest + SHAP) to identify patient-level AD biomarkers.
   - **Part2_genomics_network_analysis_drug_repurposing.ipynb**  
